@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="75c1824e-d22c-452e-a5f6-c10d25b895f5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consumer/src/main/java/com/weather_project/consumer/ConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consumer/src/main/java/com/weather_project/consumer/config/ConsumerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consumer/src/main/java/com/weather_project/consumer/config/ConsumerProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consumer/src/main/java/com/weather_project/consumer/model/domain/DateParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consumer/src/main/java/com/weather_project/consumer/model/domain/WeatherData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consumer/src/main/java/com/weather_project/consumer/service/dto/WeatherDataDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consumer/src/main/java/com/weather_project/consumer/service/messaging/consumer/WeatherConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consumer/src/main/java/com/weather_project/consumer/service/messaging/web/controller/ConsumerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consumer/src/main/java/com/weather_project/statistics/Statistics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consumer/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Consumer/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Producer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Producer/src/main/java/com/weather_project/producer/ProducerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Producer/src/main/java/com/weather_project/producer/config/ProducerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Producer/src/main/java/com/weather_project/producer/config/ProducerProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Producer/src/main/java/com/weather_project/producer/model/domain/CalendarHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Producer/src/main/java/com/weather_project/producer/model/domain/City.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Producer/src/main/java/com/weather_project/producer/model/domain/DataFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Producer/src/main/java/com/weather_project/producer/model/domain/DateParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Producer/src/main/java/com/weather_project/producer/model/domain/WeatherData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Producer/src/main/java/com/weather_project/producer/model/domain/WeatherState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Producer/src/main/java/com/weather_project/producer/service/messaging/producer/WeatherProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Producer/src/main/java/com/weather_project/producer/service/messaging/web/controller/WeatherController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Producer/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Producer/src/test/java/com/weather_project/producer/service/messaging/producer/WeatherProducerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Producer/src/test/java/com/weather_project/producer/service/messaging/web/controller/WeatherControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/src/main/java/org/example/ApplicationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/src/main/java/org/example/configuration/Configuration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/src/main/java/org/example/configuration/Instance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/src/main/java/org/example/configuration/SupportConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/src/main/java/org/example/controller/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/src/main/java/org/example/controller/PostPhraseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/src/main/java/org/example/controller/PostPhraseControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/src/main/java/org/example/controller/SupportPhraseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/src/main/java/org/example/controller/SupportPhraseControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/src/main/java/org/example/db/DB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/src/main/java/org/example/dispatcher_servlet/DispatcherServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/src/main/java/org/example/dispatcher_servlet/RequestMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/src/main/java/org/example/dispatcher_servlet/RequestType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/src/main/java/org/example/dispatcher_servlet/dispather/HttpCallDispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/src/main/java/org/example/dispatcher_servlet/dispather/JsonContentTypeHttpCallDispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/src/main/java/org/example/dispatcher_servlet/mapping/CommonMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/src/main/java/org/example/dispatcher_servlet/mapping/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/src/main/java/org/example/dispatcher_servlet/mapping/Mapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/src/main/java/org/example/dispatcher_servlet/mapping/MappingProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/src/main/java/org/example/logging/Logged.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/src/main/java/org/example/logging/LoggingSupportManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/src/main/java/org/example/proxy/ControllerLoggingProxyApplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/src/main/java/org/example/proxy/ProxyApplier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/src/main/java/org/example/support/SupportManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/src/main/java/org/example/support/SupportManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/src/main/java/org/example/support/SupportPhrase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/src/main/java/org/example/support/SupportService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/src/main/java/org/example/support/SupportServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/src/test/java/org/example/ApplicationContextTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/src/test/java/org/example/dispatcher_servlet/DispatcherServletTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/src/test/java/org/example/support/SupportManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV2/src/test/java/org/example/support/SupportServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV3/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV3/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV3/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../healthCareV3/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/custom-broker/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/custom-broker/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/demo-app/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/demo-app/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/demo-app/src/main/resources/META-INF/spring.factories" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/demo-app/src/test/java/org/example/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../healthCareV1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../healthCareV1/.idea/misc.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2zh9CuD3oFjH3CTyhYqLuaHD5qp" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.App.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Producer.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yaml.kafka: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker-compose.yaml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.WeatherProducerTest.shouldSendOrder.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lezhn/IdeaProjects/WeatherProject&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lezhn\IdeaProjects\WeatherProject\Producer\src\test\java" />
+      <recent name="C:\Users\lezhn\IdeaProjects\WeatherProject\src\main\java" />
+      <recent name="C:\Users\lezhn\IdeaProjects\WeatherProject\Producer\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lezhn\IdeaProjects\WeatherProject\Producer\src\main\resources" />
+      <recent name="C:\Users\lezhn\IdeaProjects\WeatherProject\Producer\src\main\java" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.weather_project.producer.service.messaging.web.controller" />
+      <recent name="com.weather_project.consumer.domain" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Docker.docker-compose.yaml: Compose Deployment">
+    <configuration name="Consumer" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="ms-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.weather_project.consumer.ConsumerApplication" />
+      <module name="Consumer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Producer" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="ms-17" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.weather_project.producer.ProducerApplication" />
+      <module name="Producer" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WeatherProducerTest.shouldSendOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Producer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.weather_project.producer.service.messaging.producer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.weather_project.producer.service.messaging.producer" />
+      <option name="MAIN_CLASS_NAME" value="com.weather_project.producer.service.messaging.producer.WeatherProducerTest" />
+      <option name="METHOD_NAME" value="shouldSendOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="envFilePath" value="" />
+          <option name="sourceFilePath" value="docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="docker-compose.yaml.kafka: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="containerName" value="" />
+          <option name="envFilePath" value="" />
+          <option name="services">
+            <list>
+              <option value="kafka" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value="docker-compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Consumer" />
+      <item itemvalue="Application.Producer" />
+      <item itemvalue="Docker.docker-compose.yaml.kafka: Compose Deployment" />
+      <item itemvalue="Docker.docker-compose.yaml: Compose Deployment" />
+      <item itemvalue="JUnit.WeatherProducerTest.shouldSendOrder" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yaml: Compose Deployment" />
+        <item itemvalue="JUnit.WeatherProducerTest.shouldSendOrder" />
+        <item itemvalue="Docker.docker-compose.yaml.kafka: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="75c1824e-d22c-452e-a5f6-c10d25b895f5" name="Changes" comment="" />
+      <created>1752172314822</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1752172314822</updated>
+    </task>
+    <servers />
+  </component>
+</project>
