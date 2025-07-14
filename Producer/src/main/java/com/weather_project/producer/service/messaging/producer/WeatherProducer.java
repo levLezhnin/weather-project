@@ -26,11 +26,11 @@ import java.util.Properties;
 @Component
 public class WeatherProducer {
 
-    private final KafkaProducer<String, Object> producer;
-    private final DataFactory dataFactory;
-
     @Value("${topic.weather-report}")
     private String topic;
+
+    private final KafkaProducer<String, Object> producer;
+    private final DataFactory dataFactory;
 
     public WeatherProducer(DataFactory dataFactory) {
         Properties properties = new Properties();
@@ -38,7 +38,6 @@ public class WeatherProducer {
         properties.put(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, ProducerProperties.BOOTSTRAP_SERVERS);
         properties.put(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, ProducerProperties.KEY_SERIALIZER);
         properties.put(ProducerConfig.VALUE_SERIALIZER_CLASS_CONFIG, ProducerProperties.VALUE_SERIALIZER);
-        properties.put(JsonSerializer.TYPE_MAPPINGS, "report:com.weather_project.producer.service.dto.WeatherDataDTO");
         properties.put("acks", ProducerProperties.acks);
 
         producer = new KafkaProducer<>(properties);

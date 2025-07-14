@@ -12,7 +12,7 @@ public class ConsumerController {
 
     private final WeatherConsumer weatherConsumer;
 
-    public void consume() {
-        CompletableFuture.runAsync(weatherConsumer);
+    public void receiveReports() {
+        CompletableFuture.runAsync(weatherConsumer::consume);
     }
 }

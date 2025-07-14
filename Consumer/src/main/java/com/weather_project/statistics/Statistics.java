@@ -44,17 +44,17 @@ public class Statistics {
 
             WeatherData hottestDay = cityWeatherData.stream().max(Comparator.comparingInt(WeatherData::getTemperature)).get();
             System.out.println("Max temperature: " + hottestDay.getTemperature());
-            System.out.println("Hottest day: " + hottestDay.getFixationTime());
+            System.out.println("Hottest day: " + DateParser.dateToString(hottestDay.getFixationTime()));
             if (hottestDay.getTemperature() > hottest.getTemperature()) {
                 hottest = hottestDay;
             }
 
             WeatherData coldestDay = cityWeatherData.stream().min(Comparator.comparingInt(WeatherData::getTemperature)).get();
             System.out.println("Min temperature: " + coldestDay.getTemperature());
-            System.out.println("Coldest day: " + coldestDay.getFixationTime());
+            System.out.println("Coldest day: " + DateParser.dateToString(coldestDay.getFixationTime()));
 
             long daysWithRain = cityWeatherData.stream().filter(data -> data.getWeatherState().equals("RAIN")).count();
-            System.out.println("Days with rain:" + daysWithRain);
+            System.out.println("Days with rain: " + daysWithRain);
             if (daysWithRain > maxDaysWithRain) {
                 maxDaysWithRain = daysWithRain;
                 cityWithMaxDaysWithRain = city;
@@ -62,8 +62,9 @@ public class Statistics {
         }
 
         System.out.println("------------- Overall -------------");
-        System.out.println("Max days with rain: " + maxDaysWithRain + ". Was in city: " + cityWithMaxDaysWithRain);
+        System.out.println("Max days with rain: " + maxDaysWithRain + ". Were in city: " + cityWithMaxDaysWithRain);
         System.out.println("Lowest average temperature: " + lowestAvgTemperature + ". Was in city: " + cityWithLowestAvgTemperature);
         System.out.println("Hottest day: " + DateParser.dateToString(hottest.getFixationTime()) + ". Temperature: " + hottest.getTemperature() + ". Was in city: " + hottest.getCity());
+        System.out.println("-----------------------------------");
     }
 }

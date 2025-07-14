@@ -5,43 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75c1824e-d22c-452e-a5f6-c10d25b895f5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consumer/src/main/java/com/weather_project/consumer/ConsumerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consumer/src/main/java/com/weather_project/consumer/config/ConsumerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consumer/src/main/java/com/weather_project/consumer/config/ConsumerProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consumer/src/main/java/com/weather_project/consumer/model/domain/DateParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consumer/src/main/java/com/weather_project/consumer/model/domain/WeatherData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consumer/src/main/java/com/weather_project/consumer/service/dto/WeatherDataDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consumer/src/main/java/com/weather_project/consumer/service/messaging/consumer/WeatherConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consumer/src/main/java/com/weather_project/consumer/service/messaging/web/controller/ConsumerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consumer/src/main/java/com/weather_project/statistics/Statistics.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consumer/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Consumer/src/test/java/org/example/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Producer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Producer/src/main/java/com/weather_project/producer/ProducerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Producer/src/main/java/com/weather_project/producer/config/ProducerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Producer/src/main/java/com/weather_project/producer/config/ProducerProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Producer/src/main/java/com/weather_project/producer/model/domain/CalendarHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Producer/src/main/java/com/weather_project/producer/model/domain/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Producer/src/main/java/com/weather_project/producer/model/domain/DataFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Producer/src/main/java/com/weather_project/producer/model/domain/DateParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Producer/src/main/java/com/weather_project/producer/model/domain/WeatherData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Producer/src/main/java/com/weather_project/producer/model/domain/WeatherState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Producer/src/main/java/com/weather_project/producer/service/messaging/producer/WeatherProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Producer/src/main/java/com/weather_project/producer/service/messaging/web/controller/WeatherController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Producer/src/main/resources/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Producer/src/test/java/com/weather_project/producer/service/messaging/producer/WeatherProducerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Producer/src/test/java/com/weather_project/producer/service/messaging/web/controller/WeatherControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../healthCareV2/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../healthCareV2/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../healthCareV2/.idea/misc.xml" afterDir="false" />
@@ -102,6 +65,7 @@
       <change afterPath="$PROJECT_DIR$/../test/demo-app/src/main/resources/META-INF/spring.factories" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test/demo-app/src/test/java/org/example/AppTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Consumer/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../healthCareV1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../healthCareV1/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -119,7 +83,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3

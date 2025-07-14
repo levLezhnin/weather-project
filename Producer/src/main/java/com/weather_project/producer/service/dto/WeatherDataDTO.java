@@ -33,7 +33,7 @@ public class WeatherDataDTO {
         return WeatherDataDTO.builder()
                 .weatherState(String.valueOf(weatherData.getWeatherState()))
                 .temperature(weatherData.getTemperature())
-                .city(String.valueOf(weatherData.getCity()))
+                .city(weatherData.getCity().name())
                 .fixationTime(DateParser.dateToString(weatherData.getFixationTime()))
                 .build();
     }
