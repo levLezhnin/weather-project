@@ -5,5 +5,13 @@ public enum City {
     SAINT_PETERSBURG("Saint-Petersburg"),
     EKATERINBURG("Ekaterinburg");
 
-    City(String name) {}
+    private final String cityName;
+
+    public String getCityName() {
+        return cityName;
+    }
+
+    City(String cityName) {
+        this.cityName = cityName;
+    }
 }

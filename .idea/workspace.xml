@@ -65,7 +65,12 @@
       <change afterPath="$PROJECT_DIR$/../test/demo-app/src/main/resources/META-INF/spring.factories" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test/demo-app/src/test/java/org/example/AppTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../test/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Consumer/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Consumer/src/main/java/com/weather_project/consumer/service/messaging/consumer/WeatherConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/src/main/java/com/weather_project/consumer/service/messaging/consumer/WeatherConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Consumer/src/test/java/com/weather_project/consumer/service/messaging/consumer/WeatherConsumerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Consumer/src/test/java/com/weather_project/consumer/service/messaging/consumer/WeatherConsumerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Producer/src/main/java/com/weather_project/producer/service/dto/WeatherDataDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Producer/src/main/java/com/weather_project/producer/service/dto/WeatherDataDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Producer/src/test/java/com/weather_project/producer/service/messaging/producer/WeatherProducerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/Producer/src/test/java/com/weather_project/producer/service/messaging/producer/WeatherProducerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/WebApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../healthCareV1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../healthCareV1/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +130,7 @@
       <recent name="com.weather_project.consumer.domain" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.docker-compose.yaml: Compose Deployment">
+  <component name="RunManager">
     <configuration name="Consumer" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="ms-17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />

@@ -1,5 +1,6 @@
 package com.weather_project.producer.service.dto;
 
+import com.google.gson.Gson;
 import com.weather_project.producer.model.domain.City;
 import com.weather_project.producer.model.domain.DateParser;
 import com.weather_project.producer.model.domain.WeatherData;
@@ -9,6 +10,7 @@ import lombok.Builder;
 import lombok.Data;
 
 import java.text.ParseException;
+import java.util.Properties;
 
 @Data
 @AllArgsConstructor
@@ -29,11 +31,22 @@ public class WeatherDataDTO {
                 .build();
     }
 
+    public static WeatherDataDTO fromJson(String json) {
+        Gson gson = new Gson();
+        Properties data = gson.fromJson(json, Properties.class);
+        return WeatherDataDTO.builder()
+                .weatherState(data.getProperty("weatherState"))
+                .city(data.getProperty("city"))
+                .temperature(Integer.parseInt(data.getProperty("temperature")))
+                .fixationTime(data.getProperty("fixationTime"))
+                .build();
+    }
+
     public static WeatherDataDTO toDTO(WeatherData weatherData) {
         return WeatherDataDTO.builder()
-                .weatherState(String.valueOf(weatherData.getWeatherState()))
+                .weatherState(weatherData.getWeatherState().getWeatherStateName())
                 .temperature(weatherData.getTemperature())
-                .city(weatherData.getCity().name())
+                .city(weatherData.getCity().getCityName())
                 .fixationTime(DateParser.dateToString(weatherData.getFixationTime()))
                 .build();
     }

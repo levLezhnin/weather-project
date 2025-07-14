@@ -1,31 +1,23 @@
 package com.weather_project.producer.service.messaging.producer;
 
-import com.weather_project.producer.model.domain.WeatherData;
-import lombok.SneakyThrows;
+import com.weather_project.producer.service.dto.WeatherDataDTO;
+import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
 import org.apache.kafka.clients.consumer.KafkaConsumer;
-import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.kafka.core.DefaultKafkaConsumerFactory;
-import org.springframework.kafka.support.serializer.JsonDeserializer;
 import org.springframework.kafka.test.context.EmbeddedKafka;
 import org.springframework.test.annotation.DirtiesContext;
 
 import java.time.Duration;
-import java.util.Arrays;
 import java.util.List;
 import java.util.Properties;
-import java.util.concurrent.TimeUnit;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
-import static org.mockito.Mockito.mock;
-
+@Slf4j
 @SpringBootTest
 @DirtiesContext
 @EmbeddedKafka(brokerProperties = {"listeners=PLAINTEXT://localhost:29092", "port=29092"})
@@ -55,5 +47,8 @@ public class WeatherProducerTest {
         consumer.close();
 
         Assertions.assertTrue(records.count() > 0);
+        for (var recs : records) {
+            log.info("Parsed DTO: {}", WeatherDataDTO.fromJson((String) recs.value()));
+        }
     }
 }

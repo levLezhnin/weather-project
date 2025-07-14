@@ -50,7 +50,7 @@ public class WeatherConsumer {
     }
 
     public ConsumerRecords<String, Object> poll() {
-        return kafkaConsumer.poll(Duration.ofSeconds(15));
+        return kafkaConsumer.poll(Duration.ofSeconds(28));
     }
 
     public void consume() {

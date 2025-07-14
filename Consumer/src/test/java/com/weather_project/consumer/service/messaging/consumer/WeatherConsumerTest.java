@@ -1,5 +1,6 @@
 package com.weather_project.consumer.service.messaging.consumer;
 
+import lombok.extern.slf4j.Slf4j;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.clients.producer.ProducerRecord;
@@ -19,6 +20,7 @@ import static junit.framework.Assert.assertTrue;
 @SpringBootTest
 @DirtiesContext
 @EmbeddedKafka(partitions = 1, brokerProperties = {"listeners=PLAINTEXT://localhost:29092", "port=29092"})
+@Slf4j
 public class WeatherConsumerTest {
     @Value("${topic.weather-report}")
     private String topic;
@@ -49,8 +51,10 @@ public class WeatherConsumerTest {
 
         var reports = weatherConsumer.poll();
         assertTrue(reports.count() > 0);
+
         Object val = reports.iterator().next().value();
+        log.info("Expected val: {}. Received val: {}", msg, val);
+
         assertEquals(msg, val);
-        System.out.println(val);
     }
 }

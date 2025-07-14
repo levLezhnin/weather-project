@@ -53,7 +53,7 @@ public class Statistics {
             System.out.println("Min temperature: " + coldestDay.getTemperature());
             System.out.println("Coldest day: " + DateParser.dateToString(coldestDay.getFixationTime()));
 
-            long daysWithRain = cityWeatherData.stream().filter(data -> data.getWeatherState().equals("RAIN")).count();
+            long daysWithRain = cityWeatherData.stream().filter(data -> data.getWeatherState().equals("Rain")).count();
             System.out.println("Days with rain: " + daysWithRain);
             if (daysWithRain > maxDaysWithRain) {
                 maxDaysWithRain = daysWithRain;
